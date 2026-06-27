@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm install && npm install --prefix apps/web",
+  "installCommand": "npm install",
   "buildCommand": "cd apps/web && npx next build --webpack",
   "outputDirectory": "apps/web/.next"
 }
