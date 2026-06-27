@@ -1,5 +1,5 @@
 {
-  "installCommand": "corepack enable && corepack prepare pnpm@8 --activate && pnpm install --no-frozen-lockfile",
-  "buildCommand": "turbo run build --filter=web",
+  "installCommand": "npm install",
+  "buildCommand": "cd apps/web && npx next build --webpack",
   "outputDirectory": "apps/web/.next"
 }
