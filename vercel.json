@@ -1,5 +1,5 @@
 {
-  "installCommand": "pnpm install",
-  "buildCommand": "turbo run build --filter=web",
+  "installCommand": "npm install && npm install --prefix apps/web",
+  "buildCommand": "cd apps/web && npx next build --webpack",
   "outputDirectory": "apps/web/.next"
 }
