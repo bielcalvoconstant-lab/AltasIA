@@ -1,18 +1,10 @@
-{
-  "name": "atlas-ia",
-  "private": true,
-  "packageManager": "pnpm@10.0.0",
-  "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "db:generate": "pnpm --filter @atlas/db prisma generate",
-    "db:migrate": "pnpm --filter @atlas/db prisma migrate dev",
-    "db:push": "pnpm --filter @atlas/db prisma db push",
-    "db:seed": "pnpm --filter @atlas/db prisma db seed"
-  },
-  "devDependencies": {
-    "turbo": "^2.1.0",
-    "typescript": "^5.8.0"
-  }
+"dependencies": {
+  "lucide-react": "^0.511.0",
+  "next": "16.2.9",
+  "react": "^19.0.0",
+  "react-dom": "^19.0.0",
+  "@auth/prisma-adapter": "^2.7.0",
+  "next-auth": "5.0.0-beta.25",
+  "@prisma/client": "^6.0.0",
+  "prisma": "^6.0.0"
 }
